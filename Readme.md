@@ -1,6 +1,6 @@
 Source code for Pro iOS Table Views: for iPhone, iPad and iPod Touch
 ====================================================================
-This project contains the source code from Pro iOS Table Views, published by Apress.
+This project contains the source code from *Pro iOS Table Views*, published by Apress.
 
 It's divided by chapter, and contains the source code for the projects referenced in the text.
 
@@ -13,7 +13,7 @@ The code was written using Xcode 4.2, and compiled against iOS5. It's been teste
 
 The book
 --------
-*Source code for Pro iOS Table Views: for iPhone, iPad and iPod Touch* is published by Apress, Inc.
+*Pro iOS Table Views: for iPhone, iPad and iPod Touch* is published by Apress, Inc.
 
 ISBN-13: 978-0-4302-3348-0 (print)
 
