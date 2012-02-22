@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		223B446914F4FC6300B7AF81 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 223B446814F4FC6300B7AF81 /* License.txt */; };
+		227E4A0214DEDB960046078A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227E4A0114DEDB960046078A /* UIKit.framework */; };
+		227E4A0414DEDB960046078A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227E4A0314DEDB960046078A /* Foundation.framework */; };
+		227E4A0614DEDB960046078A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227E4A0514DEDB960046078A /* CoreGraphics.framework */; };
+		227E4A0C14DEDB960046078A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 227E4A0A14DEDB960046078A /* InfoPlist.strings */; };
+		227E4A0E14DEDB960046078A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 227E4A0D14DEDB960046078A /* main.m */; };
+		227E4A1214DEDB960046078A /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 227E4A1114DEDB960046078A /* CMAppDelegate.m */; };
+		227E4A1514DEDB970046078A /* CMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 227E4A1414DEDB970046078A /* CMViewController.m */; };
+		227E4A1814DEDB970046078A /* CMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227E4A1614DEDB970046078A /* CMViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		223B446814F4FC6300B7AF81 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		227E49FD14DEDB960046078A /* SimpleTaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		227E4A0114DEDB960046078A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		227E4A0314DEDB960046078A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		227E4A0514DEDB960046078A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		227E4A0914DEDB960046078A /* SimpleTaps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTaps-Info.plist"; sourceTree = "<group>"; };
+		227E4A0B14DEDB960046078A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		227E4A0D14DEDB960046078A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		227E4A0F14DEDB960046078A /* SimpleTaps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleTaps-Prefix.pch"; sourceTree = "<group>"; };
+		227E4A1014DEDB960046078A /* CMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAppDelegate.h; sourceTree = "<group>"; };
+		227E4A1114DEDB960046078A /* CMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegate.m; sourceTree = "<group>"; };
+		227E4A1314DEDB960046078A /* CMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMViewController.h; sourceTree = "<group>"; };
+		227E4A1414DEDB970046078A /* CMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMViewController.m; sourceTree = "<group>"; };
+		227E4A1714DEDB970046078A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CMViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		227E49FA14DEDB960046078A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227E4A0214DEDB960046078A /* UIKit.framework in Frameworks */,
+				227E4A0414DEDB960046078A /* Foundation.framework in Frameworks */,
+				227E4A0614DEDB960046078A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		223B446514F4FC2600B7AF81 /* App controller */ = {
+			isa = PBXGroup;
+			children = (
+				227E4A1014DEDB960046078A /* CMAppDelegate.h */,
+				227E4A1114DEDB960046078A /* CMAppDelegate.m */,
+			);
+			name = "App controller";
+			sourceTree = "<group>";
+		};
+		223B446614F4FC2D00B7AF81 /* View controller */ = {
+			isa = PBXGroup;
+			children = (
+				227E4A1314DEDB960046078A /* CMViewController.h */,
+				227E4A1414DEDB970046078A /* CMViewController.m */,
+			);
+			name = "View controller";
+			sourceTree = "<group>";
+		};
+		223B446714F4FC3400B7AF81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				227E4A1614DEDB970046078A /* CMViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		227E49F214DEDB960046078A = {
+			isa = PBXGroup;
+			children = (
+				223B446814F4FC6300B7AF81 /* License.txt */,
+				227E4A0714DEDB960046078A /* SimpleTaps */,
+				227E4A0014DEDB960046078A /* Frameworks */,
+				227E49FE14DEDB960046078A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		227E49FE14DEDB960046078A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227E49FD14DEDB960046078A /* SimpleTaps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227E4A0014DEDB960046078A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				227E4A0114DEDB960046078A /* UIKit.framework */,
+				227E4A0314DEDB960046078A /* Foundation.framework */,
+				227E4A0514DEDB960046078A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		227E4A0714DEDB960046078A /* SimpleTaps */ = {
+			isa = PBXGroup;
+			children = (
+				223B446514F4FC2600B7AF81 /* App controller */,
+				223B446614F4FC2D00B7AF81 /* View controller */,
+				223B446714F4FC3400B7AF81 /* Views */,
+				227E4A0814DEDB960046078A /* Supporting Files */,
+			);
+			path = SimpleTaps;
+			sourceTree = "<group>";
+		};
+		227E4A0814DEDB960046078A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				227E4A0914DEDB960046078A /* SimpleTaps-Info.plist */,
+				227E4A0A14DEDB960046078A /* InfoPlist.strings */,
+				227E4A0D14DEDB960046078A /* main.m */,
+				227E4A0F14DEDB960046078A /* SimpleTaps-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		227E49FC14DEDB960046078A /* SimpleTaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227E4A1B14DEDB970046078A /* Build configuration list for PBXNativeTarget "SimpleTaps" */;
+			buildPhases = (
+				227E49F914DEDB960046078A /* Sources */,
+				227E49FA14DEDB960046078A /* Frameworks */,
+				227E49FB14DEDB960046078A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTaps;
+			productName = SimpleTaps;
+			productReference = 227E49FD14DEDB960046078A /* SimpleTaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		227E49F414DEDB960046078A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 227E49F714DEDB960046078A /* Build configuration list for PBXProject "SimpleTaps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 227E49F214DEDB960046078A;
+			productRefGroup = 227E49FE14DEDB960046078A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				227E49FC14DEDB960046078A /* SimpleTaps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		227E49FB14DEDB960046078A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227E4A0C14DEDB960046078A /* InfoPlist.strings in Resources */,
+				227E4A1814DEDB970046078A /* CMViewController.xib in Resources */,
+				223B446914F4FC6300B7AF81 /* License.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		227E49F914DEDB960046078A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227E4A0E14DEDB960046078A /* main.m in Sources */,
+				227E4A1214DEDB960046078A /* CMAppDelegate.m in Sources */,
+				227E4A1514DEDB970046078A /* CMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		227E4A0A14DEDB960046078A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227E4A0B14DEDB960046078A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		227E4A1614DEDB970046078A /* CMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227E4A1714DEDB970046078A /* en */,
+			);
+			name = CMViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		227E4A1914DEDB970046078A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		227E4A1A14DEDB970046078A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		227E4A1C14DEDB970046078A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTaps/SimpleTaps-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTaps/SimpleTaps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		227E4A1D14DEDB970046078A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTaps/SimpleTaps-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTaps/SimpleTaps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227E49F714DEDB960046078A /* Build configuration list for PBXProject "SimpleTaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227E4A1914DEDB970046078A /* Debug */,
+				227E4A1A14DEDB970046078A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227E4A1B14DEDB970046078A /* Build configuration list for PBXNativeTarget "SimpleTaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227E4A1C14DEDB970046078A /* Debug */,
+				227E4A1D14DEDB970046078A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 227E49F414DEDB960046078A /* Project object */;
+}

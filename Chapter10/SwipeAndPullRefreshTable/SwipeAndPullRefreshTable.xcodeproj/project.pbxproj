@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222F5E3014C9550700AE8A88 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 222F5E2F14C9550700AE8A88 /* License.txt */; };
+		222F5E4514C9577800AE8A88 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222F5E4414C9577800AE8A88 /* QuartzCore.framework */; };
+		2272D2B114B362A3009A681E /* point.png in Resources */ = {isa = PBXBuildFile; fileRef = 2272D2B014B362A3009A681E /* point.png */; };
+		22E865851499EBFB006AA452 /* SwipeTableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22E865841499EBFB006AA452 /* SwipeTableController.xib */; };
+		22F8E7ED1497C05F00BDA413 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F8E7EC1497C05F00BDA413 /* UIKit.framework */; };
+		22F8E7EF1497C05F00BDA413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F8E7EE1497C05F00BDA413 /* Foundation.framework */; };
+		22F8E7F11497C05F00BDA413 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F8E7F01497C05F00BDA413 /* CoreGraphics.framework */; };
+		22F8E7F71497C05F00BDA413 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22F8E7F51497C05F00BDA413 /* InfoPlist.strings */; };
+		22F8E7F91497C05F00BDA413 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F8E7F81497C05F00BDA413 /* main.m */; };
+		22F8E7FD1497C05F00BDA413 /* SwipeAndPullRefreshTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F8E7FC1497C05F00BDA413 /* SwipeAndPullRefreshTableAppDelegate.m */; };
+		22F8E80C1497C07F00BDA413 /* SwipeTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F8E80A1497C07F00BDA413 /* SwipeTableController.m */; };
+		22F8E8191497C70700BDA413 /* SwipeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F8E8181497C70700BDA413 /* SwipeCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		222F5E2F14C9550700AE8A88 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = License.txt; path = SwipingTable/License.txt; sourceTree = "<group>"; };
+		222F5E4414C9577800AE8A88 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2272D2B014B362A3009A681E /* point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point.png; sourceTree = "<group>"; };
+		2272D2C014B37362009A681E /* SwipeCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeCellProtocol.h; sourceTree = "<group>"; };
+		22E865841499EBFB006AA452 /* SwipeTableController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwipeTableController.xib; sourceTree = "<group>"; };
+		22F8E7E81497C05F00BDA413 /* SwipeAndPullRefreshTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeAndPullRefreshTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F8E7EC1497C05F00BDA413 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22F8E7EE1497C05F00BDA413 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22F8E7F01497C05F00BDA413 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22F8E7F41497C05F00BDA413 /* SwipeAndPullRefreshTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwipeAndPullRefreshTable-Info.plist"; sourceTree = "<group>"; };
+		22F8E7F61497C05F00BDA413 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22F8E7F81497C05F00BDA413 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22F8E7FA1497C05F00BDA413 /* SwipeAndPullRefreshTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwipeAndPullRefreshTable-Prefix.pch"; sourceTree = "<group>"; };
+		22F8E7FB1497C05F00BDA413 /* SwipeAndPullRefreshTableAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeAndPullRefreshTableAppDelegate.h; sourceTree = "<group>"; };
+		22F8E7FC1497C05F00BDA413 /* SwipeAndPullRefreshTableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeAndPullRefreshTableAppDelegate.m; sourceTree = "<group>"; };
+		22F8E8091497C07F00BDA413 /* SwipeTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeTableController.h; sourceTree = "<group>"; };
+		22F8E80A1497C07F00BDA413 /* SwipeTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeTableController.m; sourceTree = "<group>"; };
+		22F8E8171497C70700BDA413 /* SwipeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeCell.h; sourceTree = "<group>"; };
+		22F8E8181497C70700BDA413 /* SwipeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22F8E7E51497C05F00BDA413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222F5E4514C9577800AE8A88 /* QuartzCore.framework in Frameworks */,
+				22F8E7ED1497C05F00BDA413 /* UIKit.framework in Frameworks */,
+				22F8E7EF1497C05F00BDA413 /* Foundation.framework in Frameworks */,
+				22F8E7F11497C05F00BDA413 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222F5E2B14C954B800AE8A88 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2272D2B014B362A3009A681E /* point.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		222F5E2C14C954C500AE8A88 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				22F8E8171497C70700BDA413 /* SwipeCell.h */,
+				22F8E8181497C70700BDA413 /* SwipeCell.m */,
+				2272D2C014B37362009A681E /* SwipeCellProtocol.h */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		222F5E2D14C954D000AE8A88 /* Table controller */ = {
+			isa = PBXGroup;
+			children = (
+				22F8E8091497C07F00BDA413 /* SwipeTableController.h */,
+				22F8E80A1497C07F00BDA413 /* SwipeTableController.m */,
+				22E865841499EBFB006AA452 /* SwipeTableController.xib */,
+			);
+			name = "Table controller";
+			sourceTree = "<group>";
+		};
+		222F5E2E14C954DD00AE8A88 /* App delegate */ = {
+			isa = PBXGroup;
+			children = (
+				22F8E7FB1497C05F00BDA413 /* SwipeAndPullRefreshTableAppDelegate.h */,
+				22F8E7FC1497C05F00BDA413 /* SwipeAndPullRefreshTableAppDelegate.m */,
+			);
+			name = "App delegate";
+			sourceTree = "<group>";
+		};
+		22F8E7DD1497C05F00BDA413 = {
+			isa = PBXGroup;
+			children = (
+				222F5E2F14C9550700AE8A88 /* License.txt */,
+				22F8E7F21497C05F00BDA413 /* SwipeAndPullRefreshTable */,
+				22F8E7EB1497C05F00BDA413 /* Frameworks */,
+				22F8E7E91497C05F00BDA413 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22F8E7E91497C05F00BDA413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22F8E7E81497C05F00BDA413 /* SwipeAndPullRefreshTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22F8E7EB1497C05F00BDA413 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				222F5E4414C9577800AE8A88 /* QuartzCore.framework */,
+				22F8E7EC1497C05F00BDA413 /* UIKit.framework */,
+				22F8E7EE1497C05F00BDA413 /* Foundation.framework */,
+				22F8E7F01497C05F00BDA413 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22F8E7F21497C05F00BDA413 /* SwipeAndPullRefreshTable */ = {
+			isa = PBXGroup;
+			children = (
+				222F5E2E14C954DD00AE8A88 /* App delegate */,
+				222F5E2D14C954D000AE8A88 /* Table controller */,
+				222F5E2C14C954C500AE8A88 /* Cells */,
+				222F5E2B14C954B800AE8A88 /* Assets */,
+				22F8E7F31497C05F00BDA413 /* Supporting Files */,
+			);
+			name = SwipeAndPullRefreshTable;
+			path = SwipingTable;
+			sourceTree = "<group>";
+		};
+		22F8E7F31497C05F00BDA413 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22F8E7F41497C05F00BDA413 /* SwipeAndPullRefreshTable-Info.plist */,
+				22F8E7F51497C05F00BDA413 /* InfoPlist.strings */,
+				22F8E7F81497C05F00BDA413 /* main.m */,
+				22F8E7FA1497C05F00BDA413 /* SwipeAndPullRefreshTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22F8E7E71497C05F00BDA413 /* SwipeAndPullRefreshTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F8E8061497C05F00BDA413 /* Build configuration list for PBXNativeTarget "SwipeAndPullRefreshTable" */;
+			buildPhases = (
+				22F8E7E41497C05F00BDA413 /* Sources */,
+				22F8E7E51497C05F00BDA413 /* Frameworks */,
+				22F8E7E61497C05F00BDA413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeAndPullRefreshTable;
+			productName = SwipingTable;
+			productReference = 22F8E7E81497C05F00BDA413 /* SwipeAndPullRefreshTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22F8E7DF1497C05F00BDA413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Charismatic Megafauna Ltd";
+			};
+			buildConfigurationList = 22F8E7E21497C05F00BDA413 /* Build configuration list for PBXProject "SwipeAndPullRefreshTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22F8E7DD1497C05F00BDA413;
+			productRefGroup = 22F8E7E91497C05F00BDA413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22F8E7E71497C05F00BDA413 /* SwipeAndPullRefreshTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22F8E7E61497C05F00BDA413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F8E7F71497C05F00BDA413 /* InfoPlist.strings in Resources */,
+				22E865851499EBFB006AA452 /* SwipeTableController.xib in Resources */,
+				2272D2B114B362A3009A681E /* point.png in Resources */,
+				222F5E3014C9550700AE8A88 /* License.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22F8E7E41497C05F00BDA413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F8E7F91497C05F00BDA413 /* main.m in Sources */,
+				22F8E7FD1497C05F00BDA413 /* SwipeAndPullRefreshTableAppDelegate.m in Sources */,
+				22F8E80C1497C07F00BDA413 /* SwipeTableController.m in Sources */,
+				22F8E8191497C70700BDA413 /* SwipeCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22F8E7F51497C05F00BDA413 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22F8E7F61497C05F00BDA413 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22F8E8041497C05F00BDA413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22F8E8051497C05F00BDA413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22F8E8071497C05F00BDA413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwipingTable/SwipeAndPullRefreshTable-Prefix.pch";
+				INFOPLIST_FILE = "SwipingTable/SwipeAndPullRefreshTable-Info.plist";
+				PRODUCT_NAME = SwipeAndPullRefreshTable;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22F8E8081497C05F00BDA413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwipingTable/SwipeAndPullRefreshTable-Prefix.pch";
+				INFOPLIST_FILE = "SwipingTable/SwipeAndPullRefreshTable-Info.plist";
+				PRODUCT_NAME = SwipeAndPullRefreshTable;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22F8E7E21497C05F00BDA413 /* Build configuration list for PBXProject "SwipeAndPullRefreshTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F8E8041497C05F00BDA413 /* Debug */,
+				22F8E8051497C05F00BDA413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F8E8061497C05F00BDA413 /* Build configuration list for PBXNativeTarget "SwipeAndPullRefreshTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F8E8071497C05F00BDA413 /* Debug */,
+				22F8E8081497C05F00BDA413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22F8E7DF1497C05F00BDA413 /* Project object */;
+}
