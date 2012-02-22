@@ -14,12 +14,16 @@ The code was written using Xcode 4.2, and compiled against iOS5. All projects us
 The book
 --------
 *Source code for Pro iOS Table Views: for iPhone, iPad and iPod Touch* is published by Apress, Inc.
+
 ISBN-13: 978-0-4302-3348-0 (print)
+
 ISBN-13: 978-1-4302-3349-7 (eBook)
 
 It's available from Amazon and other sources:
-(US) `http://www.amazon.com/Pro-iOS-Table-Views-iPhone/dp/1430233486/`
-(UK) `http://www.amazon.co.uk/Pro-iOS-Table-Views-iPhone/dp/1430233486/`
+
+(US) [http://www.amazon.com/Pro-iOS-Table-Views-iPhone/dp/1430233486/](http://www.amazon.com/Pro-iOS-Table-Views-iPhone/dp/1430233486/)
+
+(UK) [http://www.amazon.co.uk/Pro-iOS-Table-Views-iPhone/dp/1430233486/](http://www.amazon.co.uk/Pro-iOS-Table-Views-iPhone/dp/1430233486/)
 
 Book Abstract:
 --------------
