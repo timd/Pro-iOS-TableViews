@@ -36,7 +36,9 @@ Pro iOS Table Views takes a task-oriented focus to assist you when implementing 
 * Covers the entire Table View API in depth
 * Covers customization and performance topics in depth
 * Task-oriented reference with multiple levels of detail
-* What you’ll learn
+
+*What you’ll learn*
+
 * The anatomy of tables and cells
 * The design patterns that power the table view
 * How to create and configure table views
@@ -45,7 +47,7 @@ Pro iOS Table Views takes a task-oriented focus to assist you when implementing 
 * Advanced tips and tricks for performance and killer user interfaces
 * The latest updates in iOS 5 and how to exploit them
 
-Who this book is for
+*Who this book is for*
 
 The book is targeted at iOS developers who need to customize Table Views. The information is divided into several layers of detail. While the book covers complex customization topics and user interaction techniques, it provides the fundamental basics needed for customization. Both beginners and intermediate developers will find great value in this book as a helpful reference, at hand to quickly refresh their knowledge at any given time.
 
