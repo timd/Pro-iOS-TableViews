@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220F542914F5350100ADCAA0 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 220F542814F5350100ADCAA0 /* License.txt */; };
+		228234C7149F8143001E1F3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228234C6149F8143001E1F3B /* UIKit.framework */; };
+		228234C9149F8143001E1F3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228234C8149F8143001E1F3B /* Foundation.framework */; };
+		228234CB149F8144001E1F3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228234CA149F8143001E1F3B /* CoreGraphics.framework */; };
+		228234D1149F8144001E1F3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 228234CF149F8144001E1F3B /* InfoPlist.strings */; };
+		228234D3149F8144001E1F3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 228234D2149F8144001E1F3B /* main.m */; };
+		228234D7149F8144001E1F3B /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 228234D6149F8144001E1F3B /* CMAppDelegate.m */; };
+		228234E6149F815C001E1F3B /* CMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228234E4149F815C001E1F3B /* CMViewController.m */; };
+		228234E7149F815C001E1F3B /* CMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 228234E5149F815C001E1F3B /* CMViewController.xib */; };
+		228234E9149F81DD001E1F3B /* NewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 228234E8149F81DD001E1F3B /* NewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		220F542814F5350100ADCAA0 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		228234C2149F8143001E1F3B /* CellsFromNibs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellsFromNibs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		228234C6149F8143001E1F3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		228234C8149F8143001E1F3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		228234CA149F8143001E1F3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		228234CE149F8144001E1F3B /* CellsFromNibs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CellsFromNibs-Info.plist"; sourceTree = "<group>"; };
+		228234D0149F8144001E1F3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		228234D2149F8144001E1F3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		228234D4149F8144001E1F3B /* CellsFromNibs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CellsFromNibs-Prefix.pch"; sourceTree = "<group>"; };
+		228234D5149F8144001E1F3B /* CMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAppDelegate.h; sourceTree = "<group>"; };
+		228234D6149F8144001E1F3B /* CMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegate.m; sourceTree = "<group>"; };
+		228234E3149F815C001E1F3B /* CMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMViewController.h; sourceTree = "<group>"; };
+		228234E4149F815C001E1F3B /* CMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMViewController.m; sourceTree = "<group>"; };
+		228234E5149F815C001E1F3B /* CMViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CMViewController.xib; sourceTree = "<group>"; };
+		228234E8149F81DD001E1F3B /* NewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		228234BF149F8143001E1F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228234C7149F8143001E1F3B /* UIKit.framework in Frameworks */,
+				228234C9149F8143001E1F3B /* Foundation.framework in Frameworks */,
+				228234CB149F8144001E1F3B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220F542514F534D000ADCAA0 /* App delegate */ = {
+			isa = PBXGroup;
+			children = (
+				228234D5149F8144001E1F3B /* CMAppDelegate.h */,
+				228234D6149F8144001E1F3B /* CMAppDelegate.m */,
+			);
+			name = "App delegate";
+			sourceTree = "<group>";
+		};
+		220F542614F534D900ADCAA0 /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				228234E3149F815C001E1F3B /* CMViewController.h */,
+				228234E4149F815C001E1F3B /* CMViewController.m */,
+			);
+			name = "View controllers";
+			sourceTree = "<group>";
+		};
+		220F542714F534DF00ADCAA0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				228234E5149F815C001E1F3B /* CMViewController.xib */,
+				228234E8149F81DD001E1F3B /* NewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		228234B7149F8143001E1F3B = {
+			isa = PBXGroup;
+			children = (
+				220F542814F5350100ADCAA0 /* License.txt */,
+				228234CC149F8144001E1F3B /* CellsFromNibs */,
+				228234C5149F8143001E1F3B /* Frameworks */,
+				228234C3149F8143001E1F3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		228234C3149F8143001E1F3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				228234C2149F8143001E1F3B /* CellsFromNibs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		228234C5149F8143001E1F3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				228234C6149F8143001E1F3B /* UIKit.framework */,
+				228234C8149F8143001E1F3B /* Foundation.framework */,
+				228234CA149F8143001E1F3B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		228234CC149F8144001E1F3B /* CellsFromNibs */ = {
+			isa = PBXGroup;
+			children = (
+				220F542514F534D000ADCAA0 /* App delegate */,
+				220F542614F534D900ADCAA0 /* View controllers */,
+				220F542714F534DF00ADCAA0 /* Views */,
+				228234CD149F8144001E1F3B /* Supporting Files */,
+			);
+			path = CellsFromNibs;
+			sourceTree = "<group>";
+		};
+		228234CD149F8144001E1F3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				228234CE149F8144001E1F3B /* CellsFromNibs-Info.plist */,
+				228234CF149F8144001E1F3B /* InfoPlist.strings */,
+				228234D2149F8144001E1F3B /* main.m */,
+				228234D4149F8144001E1F3B /* CellsFromNibs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		228234C1149F8143001E1F3B /* CellsFromNibs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228234E0149F8144001E1F3B /* Build configuration list for PBXNativeTarget "CellsFromNibs" */;
+			buildPhases = (
+				228234BE149F8143001E1F3B /* Sources */,
+				228234BF149F8143001E1F3B /* Frameworks */,
+				228234C0149F8143001E1F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CellsFromNibs;
+			productName = CellsFromNibs;
+			productReference = 228234C2149F8143001E1F3B /* CellsFromNibs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		228234B9149F8143001E1F3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Charismatic Megafauna Ltd";
+			};
+			buildConfigurationList = 228234BC149F8143001E1F3B /* Build configuration list for PBXProject "CellsFromNibs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 228234B7149F8143001E1F3B;
+			productRefGroup = 228234C3149F8143001E1F3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				228234C1149F8143001E1F3B /* CellsFromNibs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		228234C0149F8143001E1F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228234D1149F8144001E1F3B /* InfoPlist.strings in Resources */,
+				228234E7149F815C001E1F3B /* CMViewController.xib in Resources */,
+				228234E9149F81DD001E1F3B /* NewCell.xib in Resources */,
+				220F542914F5350100ADCAA0 /* License.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		228234BE149F8143001E1F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228234D3149F8144001E1F3B /* main.m in Sources */,
+				228234D7149F8144001E1F3B /* CMAppDelegate.m in Sources */,
+				228234E6149F815C001E1F3B /* CMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		228234CF149F8144001E1F3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				228234D0149F8144001E1F3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		228234DE149F8144001E1F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		228234DF149F8144001E1F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		228234E1149F8144001E1F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CellsFromNibs/CellsFromNibs-Prefix.pch";
+				INFOPLIST_FILE = "CellsFromNibs/CellsFromNibs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		228234E2149F8144001E1F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CellsFromNibs/CellsFromNibs-Prefix.pch";
+				INFOPLIST_FILE = "CellsFromNibs/CellsFromNibs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		228234BC149F8143001E1F3B /* Build configuration list for PBXProject "CellsFromNibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228234DE149F8144001E1F3B /* Debug */,
+				228234DF149F8144001E1F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		228234E0149F8144001E1F3B /* Build configuration list for PBXNativeTarget "CellsFromNibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228234E1149F8144001E1F3B /* Debug */,
+				228234E2149F8144001E1F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 228234B9149F8143001E1F3B /* Project object */;
+}
