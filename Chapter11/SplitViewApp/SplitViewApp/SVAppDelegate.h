@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class SplitViewController;
+
 @interface SVAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

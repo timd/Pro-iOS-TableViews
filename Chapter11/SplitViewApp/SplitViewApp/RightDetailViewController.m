@@ -10,8 +10,6 @@
 
 @implementation RightDetailViewController
 
-@synthesize statusLabel = _statusLabel;
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -78,7 +76,7 @@
     
     NSLog(@"updateDetailViewWith:%@ called", detail);
     
-    _statusLabel.text = [NSString stringWithFormat:@"%@ was selected", detail];
+    self.statusLabel.text = [NSString stringWithFormat:@"%@ was selected", detail];
     
 }
 
