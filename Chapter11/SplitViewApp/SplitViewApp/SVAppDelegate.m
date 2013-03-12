@@ -13,9 +13,6 @@
 
 @implementation SVAppDelegate
 
-@synthesize window = _window;
-@synthesize splitViewController = _splitViewController;
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
@@ -33,15 +30,19 @@
     leftTableVC.delegate = rightDetailVC;
 
     // Create split view controller and load its view controllers
-    _splitViewController = [[UISplitViewController alloc] init];
+    self.splitViewController = [[UISplitViewController alloc] init];
     NSArray *viewControllers = [[NSArray alloc] initWithObjects:leftNavController, rightNavController, nil];
     
-    _splitViewController.delegate = rightDetailVC;
-    _splitViewController.viewControllers = viewControllers;
+    self.splitViewController.delegate = rightDetailVC;
+    self.splitViewController.viewControllers = viewControllers;
     
     // Add the split view controller to the view
-    [self.window addSubview:_splitViewController.view];
-   
+    // Deprecated in iOS6
+    //[self.window addSubview:_splitViewController.view];
+    
+    // For iOS6, add the split view controller as the root view controller
+    self.window.rootViewController = self.splitViewController;
+    
     // Set up the window and return
     [self.window makeKeyAndVisible];
     return YES;
